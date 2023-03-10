@@ -63,3 +63,14 @@ git push -u origin master (o usar main)                ----------------------- e
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TRAER LO CAMBIOS (RECOMENDABLE HACER ESTO SIEMPRE ANTES DE ESCRIBIR EL CODIGO)>>>>>>>>>>>>>>>>
 git pull   --------------------------- Trae los cambios realizados por el equipo de desarrollo
+
+
+************************ PARA REPOSITORIOS NUEVOS **************************
+
+1- crear carpeta en github
+2- Crear README.md  ------------ touch README.md
+3- Inicializar  ---------------- git init
+4- Subir cambios --------------- git add . (o nombre de carpeta)
+5- Crear el commit ------------- git commit -m "Mensaje"
+6- Cambiar rama(crear main)----- git branch -m master main
+7- Cambiar el push a main ------ git push -u origin main
