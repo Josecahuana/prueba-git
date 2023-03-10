@@ -48,8 +48,18 @@ ls -a -------------------------------------------- me muestra la direccion de lo
 git init ------------------------------------------ crea la carpeta git donde podemos realizar todo los cambios y trackeos
 code .     --------------------------------------- code abre visual studio code
 
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>> CUANDO QUIERES SUBIR UN CAMBIO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 git add .   ----------------------- Carga el cambio
 
 git commit ------------------------- carga la pantalla visual.core para ingresar el mensaje de cambio
 git commit -m "MENSAJE" ------------ es un shorhand para ingresar el mensaje de cambio
+git push --------------------------- cuando ya creaste el origin
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CREAR EL REMOTO FDE GIT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+git remote add origin https://github.com/usuario/repositorio.git         ----- crear el remoto en origin
+git push -u origin master (o usar main)                ----------------------- es ver de escribir todo el remote add origin ahora solo usar git push
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TRAER LO CAMBIOS (RECOMENDABLE HACER ESTO SIEMPRE ANTES DE ESCRIBIR EL CODIGO)>>>>>>>>>>>>>>>>
+git pull   --------------------------- Trae los cambios realizados por el equipo de desarrollo
